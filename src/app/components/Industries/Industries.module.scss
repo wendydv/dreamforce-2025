@@ -1,0 +1,32 @@
+@import "../../styles/base";
+
+.industries {
+  position: relative;
+
+  &__image {
+    width: auto;
+    height: 100%;
+    min-height: 65vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__grid {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: toREM(50) toREM(30);
+    padding: toREM(40);
+    // background-color: var(--color-background);
+    // background-image: url("/grey-bg-vector.svg");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: 0 0;
+  }
+}

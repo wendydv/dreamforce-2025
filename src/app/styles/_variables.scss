@@ -1,0 +1,104 @@
+@import "./mixins";
+
+// SET THE THE VARIABLES BELOW
+// Colors
+$colors: (
+  primary: #1b1b1b,
+  secondary: #ffffff,
+  tertiary: #7733bb,
+  quaternary: #2b8000,
+  quinary: #406b95,
+  senary: #c96266,
+  lightGrey: #979797,
+);
+
+// Fonts
+$font-families: (
+  primary: "var(--roboto-font), sans-serif",
+  secondary: '"Open Sans", sans-serif',
+);
+
+// Font Sizes
+$font-size-base: 16;
+$font-sizes: (
+  base: toREM($font-size-base),
+  xs: toREM($font-size-base * 1.25),
+  sm: toREM($font-size-base * 1.5),
+  m: toREM($font-size-base * 2),
+  lg: toREM($font-size-base * 3),
+  xl: toREM($font-size-base * 4),
+);
+
+// Line Heights
+$line-heights: (
+  base: 1.1,
+  xs: 1.25,
+  sm: 1.375,
+  lg: 1.75,
+  xl: 1.5,
+  xxl: 1.25,
+  xxxl: 1.125,
+);
+
+// Body Styles
+$body-styles: (
+  font-family: map-get($font-families, primary),
+  font-size: map-get($font-sizes, base),
+  line-height: map-get($line-heights, base),
+  color: map-get($colors, primary),
+  background-color: map-get($colors, white),
+  spacing: toREM(0),
+);
+
+// Main Navigation
+$nav: (
+  font-size: map-get($font-sizes, base),
+  item-padding: toREM(50),
+  link-color: map-get($colors, primary),
+);
+
+// Container
+$container: (
+  max-width: toREM(1440),
+  spacing: toREM(20),
+);
+
+// Footer
+$footer: ();
+
+// Header
+$header: (
+  background-color: transparent,
+  font-size: toREM(16),
+  vertical-spacing: toREM(20),
+  height: auto,
+);
+
+// Headline
+$headline: (
+  spacing: 0,
+  font-family: map-get($font-families, primary),
+  font-size-lvl1: map-get($font-sizes, xl),
+  font-size-lvl2: map-get($font-sizes, lg),
+  font-size-lvl3: map-get($font-sizes, m),
+  font-size-lvl4: map-get($font-sizes, sm),
+  line-height: 110%,
+  color: map-get($colors, primary),
+  weight: 700,
+);
+
+//Breakpoints
+$breakpoints: (
+  "small": (
+    max-width: 767px,
+  ),
+  "medium": (
+    max-width: 1024px,
+  ),
+  "large": (
+    max-width: 1200px,
+  ),
+  "xlarge": (
+    max-width: 1440px,
+  ),
+) !default;

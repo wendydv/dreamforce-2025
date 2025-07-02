@@ -1,0 +1,14 @@
+@import "../../styles/base";
+
+.footer {
+  padding-top: toREM(50);
+  padding-bottom: toREM(50);
+
+  &__columns {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    gap: toREM(150);
+  }
+}

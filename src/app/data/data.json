@@ -1,0 +1,259 @@
+{
+  "navigation": [
+    {
+      "label": "Rest & Recharge",
+      "id": "rest-and-recharge",
+      "href": "#rest-and-recharge",
+      "icon": ""
+    },
+    {
+      "label": "Keynote Livestream",
+      "id": "keynote-livestream",
+      "href": "#keynote-livestream",
+      "icon": ""
+    },
+    {
+      "label": "Happy Hour",
+      "id": "Happy Hour",
+      "href": "#happy-hour",
+      "icon": ""
+    },
+    {
+      "label": "The Insight Exchange",
+      "id": "the-insight-exchange",
+      "href": "#the-insight-exchange",
+      "icon": ""
+    },
+    {
+      "label": "Grab Some Swag",
+      "id": "grab-some-swag",
+      "href": "#grab-some-swag",
+      "icon": ""
+    },
+    {
+      "label": "Root for a Greener Tomorrow",
+      "id": "root-for-a-greener-tomorrow",
+      "href": "#root-for-a-greener-tomorrow",
+      "icon": ""
+    }
+  ],
+  "footer": {
+    "socialMedias": [
+      {
+        "link": "https://www.linkedin.com/company/gerent/",
+        "icon": "icons/linkedin-icon.svg",
+        "name": "Linkedin"
+      },
+      {
+        "link": "https://www.facebook.com/gerentconsulting",
+        "icon": "icons/facebook-icon.svg",
+        "name": "Facebook"
+      },
+      {
+        "link": "https://twitter.com/GerentLlc",
+        "icon": "icons/twitter-icon.svg",
+        "name": "Twitter"
+      },
+      {
+        "link": "https://www.youtube.com/channel/UCOaVWwVAI9dIZg6pyD80UpQ",
+        "icon": "icons/youtube-icon.svg",
+        "name": "Youtube"
+      }
+    ],
+    "copyRight": "© {year} Gerent. All rights reserved.",
+    "logo": {
+      "src": "gerent-logo.svg",
+      "alt": "Gerent Logo",
+      "width": 171,
+      "height": 44,
+      "link": {
+        "href": "https://www.gerent.com",
+        "title": "Gerent Home Page",
+        "target": "_blank"
+      }
+    }
+  },
+  "gerentLogo": {
+    "src": "gerent-logo.svg",
+    "alt": "Gerent Logo",
+    "link": {
+      "href": "https://www.gerent.com",
+      "title": "Gerent Home Page",
+      "target": "_blank"
+    }
+  },
+  "salesforceLogo": {
+    "src": "salesforce-logo.svg",
+    "alt": "Salesforce Logo",
+    "link": {
+      "href": "https://www.salesforce.com/",
+      "title": "Salesforce Home Page",
+      "target": "_blank",
+      "color": "#9da810"
+    }
+  },
+  "splashPage": {
+    "title": "Join us at Dreamforce",
+    "subtitle": "Select Your Industry",
+    "details": [
+      {
+        "icon": "date",
+        "src": "icons/date-icon.svg",
+        "text": "October 14 - 15, 2025"
+      },
+      {
+        "icon": "location",
+        "src": "icons/location-icon.svg",
+        "text": "Hotel Zetta, 55 5th St, San Francisco, CA 94103"
+      }
+    ],
+    "backgroundImage": "splash-background.jpg",
+    "industries": [
+      {
+        "slug": "mae",
+        "title": "Manufacturing, Automotive, Energy, Distribution",
+        "link": {
+          "href": "/mae",
+          "title": "Manufacturing, Automotive, Energy, Distribution Industry Events",
+          "target": "_blank"
+        },
+        "image": {
+          "src": "industries/MFG.webp",
+          "alt": "Manufacturing, Automotive, Energy, Distribution industry",
+          "width": 233,
+          "height": 269
+        }
+      },
+      {
+        "slug": "fins",
+        "title": "Financial Services",
+        "link": {
+          "href": "/fins",
+          "title": "Financial Services Industry Events",
+          "target": "_blank"
+        },
+        "image": {
+          "src": "industries/FINS.webp",
+          "alt": "Financial Services industry",
+          "width": 233,
+          "height": 269
+        }
+      },
+      {
+        "slug": "hsl",
+        "title": "Healthcare & Life Sciences",
+        "link": {
+          "href": "/hsl",
+          "title": "Healthcare & Life Sciences Industry Events",
+          "target": "_blank"
+        },
+        "image": {
+          "src": "industries/HSL.webp",
+          "alt": "Healthcare & Life Sciences industry",
+          "width": 233,
+          "height": 269
+        }
+      },
+      {
+        "slug": "np-edu",
+        "title": "Nonprofit & Education",
+        "link": {
+          "href": "/np-edu",
+          "title": "Nonprofit & Education Industry Events",
+          "target": "_blank"
+        },
+        "image": {
+          "src": "industries/EDU.webp",
+          "alt": "Nonprofit & Education industry",
+          "width": 233,
+          "height": 269
+        }
+      },
+      {
+        "slug": "agnostic",
+        "title": "Industry-Agnostic Events",
+        "link": {
+          "href": "/agnostic",
+          "title": "Industry-Agnostic Events",
+          "target": "_blank"
+        },
+        "image": {
+          "src": "industries/IAE.webp",
+          "alt": "Industry-Agnostic Events",
+          "width": 233,
+          "height": 269
+        }
+      }
+    ]
+  },
+  "mae": {
+    "title": {
+      "text": "Level Up Your Dreamforce Experience: Join Us in the Playroom",
+      "background": {
+        "src": "vectors/hero-bg-heading.svg",
+        "alt": "purple background vector",
+        "width": 700,
+        "height": 500
+      }
+    },
+    "subtitle": {
+      "text": "Step inside Gerent’s Playroom at Hotel Zetta in San Francisco for your ultimate Dreamforce experience  from October 14-15.",
+      "background": {
+        "src": "vectors/hero-bg-text.svg",
+        "alt": "purple background vector",
+        "width": 583,
+        "height": 200
+      }
+    },
+    "details": {
+      "icon": {
+        "src": "icons/location-icon.svg",
+        "alt": "Date icon",
+        "width": 24,
+        "height": 24
+      },
+      "text": "55 5th St, San Francisco, CA 94103"
+    },
+    "heroImage": {
+      "src": "industries/mae-hero-img.webp",
+      "alt": "Manufacturing image",
+      "width": 480,
+      "height": 500
+    },
+    "keyEvents": {
+      "title": "Key Events",
+      "image": {
+        "src": "key-events.webp",
+        "alt": "Salesforce Event",
+        "width": 1188,
+        "height": 622
+      },
+      "events": [
+        {
+          "variant": "green",
+          "icon": "heart",
+          "title": "Rest & Recharge",
+          "text_1": "Your energy battery getting a little low? Take a break from the Dreamforce hustle and fuel up with us! Enjoy complimentary breakfast and lunch all day in a beautiful space designed for you to sit back, relax, and connect between sessions.",
+          "text_2": "Come rest, refuel, and get ready to power through your busy Dreamforce schedule.",
+          "cta": "SIGN ME UP!"
+        },
+        {
+          "variant": "blue",
+          "icon": "asterisk",
+          "title": "Keynote Livestreams",
+          "text_1": "Skip the crowds and catch the keynotes that matter—without sacrificing comfort or focus. Gerent is hosting livestreams of the opening Dreamforce keynote, as well as the Manufacturing keynote.",
+          "text_2": "Come for the content, stay for the experience.",
+          "cta": "RESERVE MY SEAT!"
+        },
+        {
+          "variant": "purple",
+          "icon": "bell",
+          "title": "Happy Hour",
+          "text_1": "After a long day, what better way to wrap things up than with a Happy Hour? On October 14 between 5-10PM, come by and enjoy some great food, refreshing drinks, and chill vibes. This is your chance to have some fun, unwind with your peers, and make connections that last beyondthe conference.",
+          "text_2": "Cheers to new opportunities and unforgettable experiences!",
+          "cta": "COUNT ME IN!"
+        }
+      ]
+    }
+  }
+}

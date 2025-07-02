@@ -1,0 +1,12 @@
+@import "../../styles/base";
+
+.splashLeft {
+  margin-bottom: toREM(120);
+  &__headline {
+    margin-bottom: toREM(60);
+  }
+  &__banner_bottom {
+    position: absolute;
+    padding-top: toREM(40);
+  }
+}

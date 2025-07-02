@@ -1,0 +1,34 @@
+.arrowIcon {
+  overflow: visible;
+  display: block;
+}
+
+.circleContainer {
+  animation: expandCircle 2s infinite ease-in-out;
+  transform-origin: left center; // ← EXPAND TO THE LEFT
+}
+
+@keyframes expandCircle {
+  0%,
+  100% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(1.2); // Expands leftward
+  }
+}
+
+.arrow {
+  animation: moveArrow 2s infinite ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes moveArrow {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px); // Arrow moves right
+  }
+}

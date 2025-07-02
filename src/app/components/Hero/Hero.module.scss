@@ -1,0 +1,57 @@
+@import "../../styles/base";
+.hero {
+  &__content {
+    &__block {
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      justify-content: space-between;
+      gap: toREM(40);
+      @include respond-to("medium") {
+        flex-direction: column;
+      }
+
+      &__align_bottom {
+        align-items: flex-end;
+      }
+    }
+  }
+  &__headline {
+    color: var(--color-secondary);
+    padding: toREM(60) toREM(40);
+  }
+  &__subtitle {
+    margin-top: toREM(-40);
+  }
+  &__image {
+    width: 50%;
+    height: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 999px 99px 99px 999px;
+  }
+  &__text {
+    color: var(--color-secondary);
+    font-size: 28px;
+    line-height: 110%;
+    letter-spacing: 0.56px;
+    padding-left: toREM(40);
+    padding-right: toREM(40);
+  }
+  &__vector_heading {
+    top: 40%;
+  }
+  &__location {
+    width: 55%;
+    color: var(--color-secondary);
+    background-color: var(--color-quinary);
+    font-size: 24px;
+    line-height: 110%;
+    border-radius: 999px 99px 99px 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: toREM(20) toREM(60);
+  }
+}

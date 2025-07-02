@@ -1,0 +1,22 @@
+@import "../../styles/base";
+
+.headerIcon {
+  display: flex;
+  align-items: center;
+  gap: toREM(25);
+  color: var(--color-secondary);
+  &__block {
+    padding: toREM(30) toREM(40);
+    border-radius: 200px 50px 50px 200px;
+  }
+}
+
+/*
+  These styles are specific for the given color.
+*/
+.quaternary {
+  background-color: var(--color-quaternary);
+}
+.quinary {
+  background-color: var(--color-quinary);
+}

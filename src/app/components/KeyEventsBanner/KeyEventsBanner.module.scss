@@ -1,0 +1,46 @@
+@import "../../styles/base";
+
+.keyEvents {
+  margin-top: toREM(140);
+  &__banner {
+    position: relative;
+    &__header {
+      position: absolute;
+      top: -40px;
+      width: 438px;
+      height: 127px;
+      clip-path: path(
+        "M14.2703 120.664C4.2653 120.664 0.588017 124.888 0 127V34.0732C0 16.9658 13.8978 0 31.0417 0H406.958C424.102 0 438 13.8683 438 30.9756V90.5C438 111.884 417.524 120.664 396.094 120.664H14.2703Z"
+      );
+      background-color: var(--color-primary);
+      color: var(--color-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9;
+    }
+    &__title {
+      font-size: var(--headline-font-size-lvl1);
+      font-weight: 700;
+    }
+    &__image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 99px 999px 999px 99px;
+      padding-left: toREM(30);
+    }
+    &::before {
+      content: "";
+      display: block;
+      width: toREM(90);
+      height: toREM(130);
+      border-radius: toREM(25);
+      background-color: var(--color-quinary);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
+}

@@ -1,0 +1,128 @@
+@import "base";
+
+// Generate CSS variables from SCSS variables
+:root {
+  @each $color, $value in $colors {
+    --color-#{$color}: #{$value};
+  }
+
+  @each $font, $value in $font-families {
+    --font-#{$font}: #{$value};
+  }
+
+  @each $font-size, $value in $font-sizes {
+    --font-size-#{$font-size}: #{$value};
+  }
+
+  @each $line-height, $value in $line-heights {
+    --line-height-#{$line-height}: #{$value};
+  }
+
+  @each $style, $value in $body-styles {
+    --body-#{$style}: #{$value};
+  }
+
+  @each $key, $value in $nav {
+    --nav-#{$key}: #{$value};
+  }
+
+  @each $key, $value in $container {
+    --container-#{$key}: #{$value};
+  }
+
+  @each $key, $value in $footer {
+    --footer-#{$key}: #{$value};
+  }
+
+  @each $key, $value in $header {
+    --header-#{$key}: #{$value};
+  }
+
+  @each $key, $value in $headline {
+    --headline-#{$key}: #{$value};
+  }
+}
+// Loop from 0 to 9 and create animation-delay css styles.
+// Example: .animate__delay-0_0s, animate__delay-0_1s, animate__delay-0_2s, etc.
+@for $i from 0 through 9 {
+  .animate__delay-0_#{$i}s {
+    // Adjust the calculation to add 0.1s to each iteration
+    $delay: ($i * 0.1) + 0.1s;
+    animation-delay: $delay;
+  }
+}
+
+// Loop through all the colors and create css styles
+@each $color, $value in $colors {
+  .c-#{$color} {
+    color: #{$value};
+  }
+}
+
+// Loop through all the colors and create background-color css styles
+@each $color, $value in $colors {
+  .bgc-#{$color} {
+    background-color: #{$value};
+  }
+}
+// Reset and base styles
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 110%;
+  letter-spacing: 0.32px;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+main {
+  width: 100%;
+  @include container;
+}
+
+// Global styles splash page
+.wrapper {
+  // @include container;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+#splash {
+  //@include container;
+  width: 100%;
+  position: relative;
+}

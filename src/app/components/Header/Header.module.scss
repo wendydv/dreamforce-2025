@@ -1,0 +1,7 @@
+@import "../../styles/base";
+
+.header {
+  @include container;
+  padding-top: toREM(40);
+  padding-bottom: toREM(40);
+}

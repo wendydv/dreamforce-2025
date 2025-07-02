@@ -1,0 +1,44 @@
+@import "../../styles/base";
+@mixin headline() {
+  font-family: var(--headline-font-family);
+  line-height: var(--headline-line-height);
+  margin: 0;
+}
+
+.level {
+  &__1 {
+    @include headline();
+    font-size: var(--headline-font-size-lvl1);
+    letter-spacing: 1.28px;
+    @include respond-to("medium") {
+      font-size: var(--headline-font-size-lvl2);
+    }
+  }
+
+  &__2 {
+    @include headline();
+    font-size: var(--headline-font-size-lvl2);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    @include respond-to("medium") {
+      font-size: var(--headline-font-size-lvl4);
+    }
+    @include respond-to("small") {
+      font-size: var(--headline-font-size-lvl4);
+    }
+  }
+
+  &__3 {
+    @include headline();
+    font-size: var(--headline-font-size-lvl3);
+    @include respond-to("medium") {
+      font-size: var(--headline-font-size-lvl4);
+    }
+  }
+
+  &__4 {
+    @include headline();
+    font-size: var(--headline-font-size-lvl4);
+  }
+}

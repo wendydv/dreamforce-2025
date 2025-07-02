@@ -1,0 +1,12 @@
+.logo {
+  height: auto;
+  &__link {
+    text-decoration: none;
+    color: var(--nav-link-color);
+    line-height: 0;
+  }
+
+  &__image {
+    object-fit: cover;
+  }
+}

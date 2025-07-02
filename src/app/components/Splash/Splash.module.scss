@@ -1,0 +1,12 @@
+@import "../../styles/base";
+
+.splash {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__headline {
+    margin-bottom: toREM(40);
+  }
+}

@@ -1,0 +1,14 @@
+@import "../../styles/base";
+.detailsCard {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 25px;
+
+  &__detail {
+    color: var(--color-primary);
+    font-size: var(--headline-font-size-lvl4);
+    line-height: 120%;
+  }
+}
