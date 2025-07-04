@@ -3,9 +3,11 @@ import styles from "./AnimatedArrow.module.scss";
 export default function AnimatedArrow({
   width,
   height,
+  color,
 }: {
   width?: number;
   height?: number;
+  color?: string;
 }) {
   return (
     <svg
@@ -23,7 +25,7 @@ export default function AnimatedArrow({
           rx="50"
           ry="50"
           fill="none"
-          stroke="#000"
+          stroke={color || "#000"}
           strokeWidth="5"
         />
       </g>
@@ -31,7 +33,7 @@ export default function AnimatedArrow({
         className={styles.arrow}
         points="90,40 110,60 90,80"
         fill="none"
-        stroke="#000"
+        stroke={color || "#000"}
         strokeWidth="5"
         strokeLinecap="round"
         strokeLinejoin="round"

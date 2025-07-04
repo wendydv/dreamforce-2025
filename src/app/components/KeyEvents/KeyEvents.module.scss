@@ -2,4 +2,8 @@
 
 .keyEvents {
   margin-top: toREM(140);
+
+  &__container {
+    @include container;
+  }
 }

@@ -5,6 +5,7 @@ import AnimatedArrow from "../AnimatedArrow/AnimatedArrow";
 import AnimatedHeart from "../AnimatedHeart/AnimatedHeart";
 import Divider from "../Divider/Divider";
 import Link from "next/link";
+import AnimatedAsterisk from "../AnimatedAsterisk/AnimatedAsterisk";
 
 interface EventCardProps {
   variant: string | "green" | "blue" | "purple";
@@ -40,11 +41,11 @@ export default function EventCard({
         ></AnimatedHeart>
       )}
       {icon === "asterisk" && (
-        <AnimatedHeart
-          width={80}
-          height={80}
+        <AnimatedAsterisk
+          width={90}
+          height={90}
           className={styles.eventCard__icon}
-        ></AnimatedHeart>
+        ></AnimatedAsterisk>
       )}
       {icon === "bell" && (
         <AnimatedHeart

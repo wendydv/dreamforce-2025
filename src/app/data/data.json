@@ -223,7 +223,7 @@
     "keyEvents": {
       "title": "Key Events",
       "image": {
-        "src": "key-events.webp",
+        "src": "key-events-img-2.webp",
         "alt": "Salesforce Event",
         "width": 1188,
         "height": 622
@@ -254,6 +254,57 @@
           "cta": "COUNT ME IN!"
         }
       ]
+    },
+    "insightExchange": {
+      "title": "The Insight Exchange",
+      "text_1": "Dive into a full day of expert-led sessions tailored to Manufacturing, Automotive, Energy, Distribution needs! Come learn from our subject matter experts, ask any burning questions, and engage one-on-one for practical applications.",
+      "text_2": "This is your chance to gain powerful insights that will drive your business success beyond Dreamforce. ",
+      "cta": "RESERVE MY SEAT!",
+      "industries": [
+        {
+          "title": "Manufacturing, Automotive, Energy, Distribution",
+          "sessions": [
+            {
+              "title": "Manufacturing Cloud: The Future of Manufacturing",
+              "time": "10:00 AM - 11:00 AM",
+              "speaker": "John Doe, Manufacturing Expert"
+            },
+            {
+              "title": "Supply Chain Optimization with Salesforce",
+              "time": "11:30 AM - 12:30 PM",
+              "speaker": "Jane Smith, Supply Chain Specialist"
+            }
+          ]
+        },
+        {
+          "title": "TECHNOLOGY",
+          "sessions": [
+            {
+              "title": "Driving Innovation in Automotive with Salesforce",
+              "time": "1:00 PM - 2:00 PM",
+              "speaker": "Mike Johnson, Automotive Innovator"
+            },
+            {
+              "title": "Customer Experience in the Automotive Industry",
+              "time": "2:30 PM - 3:30 PM",
+              "speaker": "Sarah Lee, Customer Experience Guru"
+            }
+          ]
+        }
+      ]
+    },
+    "registration": {
+      "title": "Register Now"
+    },
+    "swag": {
+      "title": "Grab Some Swag",
+      "description": "Don’t forget to stop by and score some exclusive TELUS swag! Who doesn’t love getting some free stuff from a great conference? So swing by, enter some giveaways, and take a few reminders of the Dreamforce spirit with you wherever you go!"
+    },
+    "rootForAGreenerTomorrow": {
+      "title": "Root for a Greener Tomorrow",
+      "text_1": "Help us create a more sustainable future! This year, we are planting 10 trees on behalf of every Dreamforce guest. Stop by, say hi, and join us in giving back to the planet.",
+      "text_2": "Together, we can grow greener tomorrow, one tree at a time.",
+      "cta": "SAVE THE PLANET"
     }
   }
 }

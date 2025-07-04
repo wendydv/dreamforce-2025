@@ -1,5 +1,8 @@
 @import "../../styles/base";
 .hero {
+  &__container {
+    @include container;
+  }
   &__content {
     &__block {
       display: flex;
@@ -48,7 +51,7 @@
     background-color: var(--color-quinary);
     font-size: 24px;
     line-height: 110%;
-    border-radius: 999px 99px 99px 999px;
+    border-radius: 100px 20px 20px 100px;
     display: flex;
     align-items: center;
     justify-content: center;

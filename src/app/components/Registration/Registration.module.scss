@@ -1,0 +1,26 @@
+@import "../../styles/base";
+
+.registration {
+  margin-top: toREM(100);
+  padding-top: toREM(60);
+  padding-bottom: toREM(60);
+  background-image: url("/grey-bg.webp");
+
+  &__container {
+    @include container;
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: toREM(30);
+
+    &__title {
+      background-color: var(--color-quinary);
+      color: var(--color-secondary);
+      padding: toREM(30) toREM(130);
+      border-radius: 100px 20px 20px 100px;
+      max-width: 620px;
+    }
+  }
+}

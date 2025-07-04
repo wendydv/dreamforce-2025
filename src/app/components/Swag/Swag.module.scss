@@ -1,0 +1,63 @@
+@import "../../styles/base";
+
+.swag {
+  margin-top: toREM(100);
+  &__container {
+    @include container;
+  }
+
+  &__block {
+    position: relative;
+    &__top {
+      position: relative;
+      &__content {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0, -50%);
+        padding: toREM(100) toREM(60);
+        max-width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        color: var(--color-secondary);
+        z-index: 2;
+      }
+      &__svg {
+        width: 100%;
+        height: auto;
+      }
+    }
+    &__bottom {
+      width: 100%;
+      margin-top: toREM(-40);
+      padding: toREM(60) 0;
+      background-color: var(--color-primary);
+      border-radius: 0px 0px 35px 35px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      z-index: 3;
+    }
+  }
+  &__title {
+    font-size: var(--headline-font-size-lvl1);
+    text-align: right;
+    letter-spacing: 0.64px;
+    align-self: flex-end;
+  }
+
+  &__description {
+    font-size: var(--headline-font-size-lvl4);
+  }
+  &__video {
+    width: 36%;
+    height: auto;
+    position: absolute;
+    top: -13%;
+    left: -2%;
+    z-index: -1;
+    transform: rotate(-25deg);
+  }
+}

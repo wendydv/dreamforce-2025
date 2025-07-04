@@ -17,8 +17,10 @@ interface KeyEventsProps {
 export default function KeyEvents({ title, image, events }: KeyEventsProps) {
   return (
     <section id="key-events" className={styles.keyEvents}>
-      <KeyEventsBanner title={title} image={image} />
-      <Events events={events}></Events>
+      <div className={styles.keyEvents__container}>
+        <KeyEventsBanner title={title} image={image} />
+        <Events events={events}></Events>
+      </div>
     </section>
   );
 }

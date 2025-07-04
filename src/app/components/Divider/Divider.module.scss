@@ -1,6 +1,7 @@
 @import "../../styles/base";
 .divider {
   width: 100%;
+  height: 0px;
   border-bottom: 2px solid var(--color-secondary);
   margin: toREM(20) 0;
 }

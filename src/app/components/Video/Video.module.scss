@@ -1,0 +1,23 @@
+@import "../../styles/base";
+.video {
+  margin-top: toREM(100);
+  position: relative;
+  &__container {
+    @include container;
+  }
+  &__block {
+    filter: url(#round);
+  }
+  &__player {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: polygon(70% 0, 85% 15%, 100% 15%, 100% 100%, 0 100%, 0 0);
+  }
+
+  &__icon {
+    position: absolute;
+    top: 0;
+    right: 10%;
+  }
+}
